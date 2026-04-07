@@ -28,7 +28,7 @@ function App() {
 
   const handleSubmit = async () => {
     try {
-      const res = await fetch("http://localhost:3001/calculate", {
+      const res = await fetch("https://insurance-calculator-s9wh.onrender.com/calculate", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
